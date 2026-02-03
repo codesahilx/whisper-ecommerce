@@ -26,7 +26,7 @@ export default function Home() {
       id: 'organic-pads',
       title: 'Organic Pads',
       description: '100% natural fibers - gentle on skin and eco-friendly',
-      image: '/images/products/p3.avif',
+      image: '/images/products/p3.jpeg',
       emoji: '🌿',
       cta: { text: 'Shop Organic', href: '/products' },
     },
@@ -164,7 +164,7 @@ export default function Home() {
             {/* Product 3 */}
             <article className="product-card">
               <div className="product-image" style={{ background: 'linear-gradient(135deg, var(--accent-purple), var(--primary-pink))', position: 'relative', overflow: 'hidden' }} role="img" aria-label="Organic pads product image">
-                <img src="/images/products/p3.avif" alt="Organic Pads" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/images/products/p3.jpeg" alt="Organic Pads" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <div className="card-content">
                 <h3>Organic Pads</h3>
